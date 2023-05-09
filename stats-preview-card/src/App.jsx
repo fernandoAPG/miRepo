@@ -1,11 +1,11 @@
 import "./App.css";
-
+import img from '../images/image-header-mobile.jpg'
 function App() {
   return (
     <>
       <div className="main">
         <div className="main-img">
-          <img src="images/image-header-mobile.jpg" alt="header-img"/>
+          <img src={img} alt="header-img"/>
         </div>
         <div className="main-text">
         <h1>Get <span>insights</span> that help your business grow.</h1>
